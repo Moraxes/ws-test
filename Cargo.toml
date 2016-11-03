@@ -1,0 +1,17 @@
+[package]
+name = "ws-test"
+version = "0.1.0"
+authors = ["Maciej Śniegocki <m.w.sniegocki@gmail.com>"]
+
+[dependencies]
+ws = "0.5"
+log = "*"
+env_logger = "*"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
